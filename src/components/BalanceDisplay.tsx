@@ -4,7 +4,7 @@ type BalanceDisplayProps = {
 
 function BalanceDisplay({ balance }: BalanceDisplayProps) {
     return (
-        <section>
+        <section className="balance-card">
             <h2>Company Balance</h2>
             <p>₹{balance.toLocaleString('en-IN')}</p>
         </section>
